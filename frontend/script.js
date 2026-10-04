@@ -1,4 +1,4 @@
-const API = 'http://localhost:5000/api';
+const API = window.location.origin + '/api';
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
 // Products Load
